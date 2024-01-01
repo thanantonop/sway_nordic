@@ -5,8 +5,8 @@
 }
 
 window#waybar {
-    background-color: rgba(59, 66, 82, 0.7);
-    border-bottom: 2px solid rgba(129, 161, 193, 1);
+    background-color: rgba(46, 52, 64, 0.9);
+    border-bottom: 2px solid rgba(139, 192, 208, 1);
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -59,7 +59,7 @@ button:hover {
 }
 
 #workspaces button.focused {
-    background-color: #64727D;
+    background-color: #88c0d0;
     box-shadow: inset 0 -3px #ffffff;
 }
 
@@ -109,7 +109,7 @@ button:hover {
 
 #clock {
     background-color: #8FBCBB;
-    color: #ffffff;
+    color: #000000;
 }
 
 #battery {
@@ -145,12 +145,12 @@ label:focus {
 
 #cpu {
     background-color: #43BE8C;
-    color: #ffffff;
+    color: #000000;
 }
 
 #memory {
     background-color: #B48EAD;
-    color: #ffffff;
+    color: #000000;
 }
 
 #disk {
@@ -163,7 +163,7 @@ label:focus {
 
 #network {
     background-color: #5E81AC;
-    color: #ffffff;
+    color: #000000;
 }
 
 #network.disconnected {
@@ -213,7 +213,7 @@ label:focus {
 
 #tray {
     background-color: #5E81AC;
-    color: #ffffff;
+    color: #000000;
 }
 
 #tray > .passive {
@@ -227,7 +227,7 @@ label:focus {
 
 #idle_inhibitor {
     background-color: #BF616A;
-    color: #ffffff;
+    color: #000000;
 }
 
 #idle_inhibitor.activated {
@@ -254,7 +254,7 @@ label:focus {
 
 #language {
     background: #88C0D0;
-    color: #ffffff;
+    color: #000000;
     padding: 0 5px;
     margin: 0 5px;
     min-width: 16px;
@@ -262,7 +262,7 @@ label:focus {
 
 #keyboard-state {
     background: #4C566A;
-    color: #ffffff;
+    color: #000000;
     padding: 0 0px;
     margin: 0 5px;
     min-width: 16px;
