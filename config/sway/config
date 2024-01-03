@@ -282,3 +282,12 @@ bindsym $mod+t exec thunar
 
 # start firefox
 bindsym $mod+Shift+b exec firefox
+
+# lock the screen 
+bindsym $mod+Shift+Escape exec loginctl lock-session
+
+# reboot
+bindsym $mod+Shift+r exec systemctl reboot
+
+# shutdown
+bindsym $mod+Shift+s exec systemctl poweroff
