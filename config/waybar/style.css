@@ -123,8 +123,8 @@ button:hover {
 }
 
 #battery.charging, #battery.plugged {
-    color: #ffffff;
-    background-color: #26A65B;
+    color: #000000;
+    background-color: #A3BE8C;
 }
 
 @keyframes blink {
@@ -135,8 +135,8 @@ button:hover {
 }
 
 #battery.critical:not(.charging) {
-    background-color: #f53c3c;
-    color: #ffffff;
+    background-color: #BF616A;
+    color: #000000;
     animation-name: blink;
     animation-duration: 0.5s;
     animation-timing-function: linear;
@@ -149,7 +149,7 @@ label:focus {
 }
 
 #cpu {
-    background-color: #43BE8C;
+    background-color: #A3BE8C;
     color: #000000;
 }
 
@@ -163,16 +163,17 @@ label:focus {
 }
 
 #backlight {
-    background-color: #90b1b1;
+    background-color: #EBCB8B;
+    color: #000000;
 }
 
 #network {
-    background-color: #5E81AC;
+    background-color: #8FBCBB;
     color: #000000;
 }
 
 #network.disconnected {
-    background-color: #f53c3c;
+    background-color: #BF616A;
 }
 
 #pulseaudio {
@@ -209,11 +210,12 @@ label:focus {
 }
 
 #temperature {
-    background-color: #f0932b;
+    background-color: #D08770;
+    color: #000000;
 }
 
 #temperature.critical {
-    background-color: #eb4d4b;
+    background-color: #BF616A;
 }
 
 #tray {
