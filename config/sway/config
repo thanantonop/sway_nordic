@@ -244,15 +244,24 @@ default_floating_border pixel 2
 titlebar_padding 1
 titlebar_border_thickness 0
 
+# thin borders
+smart_borders on
+
 # window color settings
 # class                 border  backgr. text    indicator
-client.focused          #88c0d0 #88c0d0 #ffffff #88c0d0
+client.focused          #81a1c1 #81a1c1 #ffffff #81a1c1
 client.unfocused        #2e3440 #1f222d #888888 #1f222d
 client.focused_inactive #2e3440 #1f222d #888888 #1f222d
 client.placeholder      #2e3440 #1f222d #888888 #1f222d
 client.urgent           #900000 #900000 #ffffff #900000
 
 client.background       #242424
+
+# add transparency to the inactive windows
+#exec --no-startup-id python ~/.config/sway/scripts/inactive-windows-transparency.py --opacity 0.85
+
+# set floating (nontiling) for apps needing it
+for_window [app_id="galculator"] floating enable
 
 # configure multiple keyboard layouts and hotkey to switch (Alt+SHIFT in this example)
 input type:keyboard {
