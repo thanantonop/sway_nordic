@@ -1,15 +1,15 @@
 * {
     /* `otf-font-awesome` is required to be installed for icons */
     border: none;
-    border-radius: 4px;
-    font-family: "MesloLGS Nerd Font Mono", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    border-radius: 0px;
+    font-family: "FiraCode Nerd Font Propo SemBd", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
     font-size: 14px;
     min-height: 0;
 }
 
 window#waybar {
     background-color: rgba(46, 52, 64, 0.9);
-    border-bottom: 2px solid rgba(76, 86, 106, 1);
+    border-bottom: 0px solid rgba(76, 86, 106, 1);
     color: #ffffff;
     transition-property: background-color;
     transition-duration: .5s;
@@ -43,19 +43,19 @@ button {
     box-shadow: inset 0 -3px transparent;
     /* Avoid rounded borders under each button name */
     border: none;
-    border-radius: 4px;
+    border-radius: 0px;
 }
 
 /* https://github.com/Alexays/Waybar/wiki/FAQ#the-workspace-buttons-have-a-strange-hover-effect */
 button:hover {
     background: inherit;
-    box-shadow: inset 0 -3px #ffffff;
+    box-shadow: inset 0 -2px #81a1c1;
 }
 
 #workspaces button {
     padding: 0 5px;
     background-color: transparent;
-    color: #ffffff;
+    color: #4c566a;
 }
 
 #workspaces button:hover {
@@ -63,8 +63,9 @@ button:hover {
 }
 
 #workspaces button.focused {
-    background-color: #4c566a;
-    box-shadow: inset 0 -3px #ffffff;
+    color: #81a1c1;
+/*    background-color: #4c566a; */
+/*    box-shadow: inset 0 -2px #81a1c1; */
 }
 
 #workspaces button.urgent {
@@ -92,8 +93,8 @@ button:hover {
 #idle_inhibitor,
 #scratchpad,
 #mpd {
-    padding: 0 10px;
-    margin: 6px 3px;
+    padding: 0 5px;
+    margin: 0px 0px;
     color: #ffffff;
 }
 
@@ -113,8 +114,8 @@ button:hover {
 }
 
 #clock {
-    background-color: #8FBCBB;
-    color: #000000;
+/*    background-color: #8FBCBB; */
+    color: #8FBCBB;
 }
 
 #battery {
@@ -123,8 +124,8 @@ button:hover {
 }
 
 #battery.charging, #battery.plugged {
-    color: #000000;
-    background-color: #A3BE8C;
+    color: #A3BE8C;
+/*    background-color: #A3BE8C; */
 }
 
 @keyframes blink {
@@ -149,13 +150,13 @@ label:focus {
 }
 
 #cpu {
-    background-color: #A3BE8C;
-    color: #000000;
+/*    background-color: #A3BE8C; */
+    color: #A3BE8C;
 }
 
 #memory {
-    background-color: #B48EAD;
-    color: #000000;
+/*    background-color: #B48EAD; */
+    color: #B48EAD;
 }
 
 #disk {
@@ -163,13 +164,13 @@ label:focus {
 }
 
 #backlight {
-    background-color: #EBCB8B;
-    color: #000000;
+/*    background-color: #EBCB8B; */
+    color: #EBCB8B;
 }
 
 #network {
-    background-color: #8FBCBB;
-    color: #000000;
+/*    background-color: #8FBCBB; */
+    color: #8FBCBB;
 }
 
 #network.disconnected {
@@ -177,8 +178,8 @@ label:focus {
 }
 
 #pulseaudio {
-    background-color: #EBCB8B;
-    color: #000000;
+/*    background-color: #EBCB8B; */
+    color: #EBCB8B;
 }
 
 #pulseaudio.muted {
@@ -210,17 +211,18 @@ label:focus {
 }
 
 #temperature {
-    background-color: #D08770;
-    color: #000000;
+/*    background-color: #D08770; */
+    color: #D08770;
 }
 
 #temperature.critical {
-    background-color: #BF616A;
+/*    background-color: #BF616A; */
+    color: #BF616A;
 }
 
 #tray {
-    background-color: #5E81AC;
-    color: #000000;
+/*    background-color: #5E81AC; */
+    color: #5E81AC;
 }
 
 #tray > .passive {
@@ -233,13 +235,13 @@ label:focus {
 }
 
 #idle_inhibitor {
-    background-color: #BF616A;
-    color: #000000;
+/*    background-color: #BF616A; */
+    color: #BF616A;
 }
 
 #idle_inhibitor.activated {
-    background-color: #A3BE8C;
-    color: #000000;
+/*    background-color: #A3BE8C; */
+    color: #A3BE8C;
 }
 
 #mpd {
@@ -260,16 +262,16 @@ label:focus {
 }
 
 #language {
-    background: #88C0D0;
-    color: #000000;
+/*    background: #88C0D0; */
+    color: #88C0D0;
     padding: 0 5px;
-    margin: 6px 3px;
+    margin: 0px 0px;
     min-width: 16px;
 }
 
 #keyboard-state {
-    background: #4C566A;
-    color: #000000;
+/*    background: #4C566A; */
+    color: #4C566A;
     padding: 0 0px;
     margin: 0 5px;
     min-width: 16px;

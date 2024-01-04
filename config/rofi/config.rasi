@@ -1,12 +1,13 @@
 configuration {
-    font: "MesloLGS Nerd Font Mono 12";
+    font: "FiraCode Nerd Font Mono 12";
     line-margin: 10;
-
+/*
     display-ssh:    " ";
     display-run:    " ";
     display-drun:   " ";
     display-window: " ";
     display-combi:  " ";
+    */
     show-icons:     true;
 }
 
@@ -21,3 +22,4 @@ listview {
 window {
 	width: 40%;
 }
+

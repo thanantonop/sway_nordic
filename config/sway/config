@@ -270,7 +270,7 @@ input type:keyboard {
 }
 
 # set font
-font pango:MesloLGS Nerd Font Mono 10
+font pango:FiraCode Nerd Font Mono 10
 
 # set gtk-theme, icons and cursors
 set $gnome-schema org.gnome.desktop.interface
@@ -278,8 +278,8 @@ exec_always {
 	gsettings set $gnome-schema gtk-theme 'Nordic'
 	gsettings set $gnome-schema icon-theme 'Nordzy-dark'
 	gsettings set $gnome-schema cursor-theme 'Nordzy-cursors'
-	gsettings set org.gnome.desktop.interface font-name 'MesloLGS Nerd Font Mono 10'
-	gsettings set org.gnome.desktop.interface monospace-font-name 'MesloLGS Nerd Font Mono 10'
+	gsettings set org.gnome.desktop.interface font-name 'FiraCode Nerd Font Mono 10'
+	gsettings set org.gnome.desktop.interface monospace-font-name 'FiraCode Nerd Font Mono 10'
 	gsettings set org.gnome.desktop.interface document-font-name 'Sans 10'
 }
 
